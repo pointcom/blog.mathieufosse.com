@@ -7,13 +7,23 @@
     <link rel="stylesheet" href="/css/master.css" type="text/css" media="screen" charset="utf-8">
     <link href="/css/prettify.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="/js/prettify.js"></script>
-    
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/application.js"></script>
     
   </head>
-  <body onload="prettyPrint()">
+  <body>
     <div id="blog">
-      <h1>Mathieu Fosse</h1>
-      {{ content }}
+      <h1><a href="/" title="Return on the HomePage">Mathieu Fosse</a></h1>
+      <div id="content">
+        {{ content }}
+      </div>
+      <div id="sidebar">
+        <h3>About me</h3>
+        <p>I'm Tigerlily's CTO. I love the Web and more specifically Web
+        development</p>
+      </div>
     </div>
+    <div id="fb-root"></div>
+    <script src="http://connect.facebook.net/en_US/all.js#appId=167403559982140&amp;xfbml=1"></script>
   </body>
 </html>

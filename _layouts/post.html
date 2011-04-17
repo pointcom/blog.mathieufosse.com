@@ -3,6 +3,7 @@ layout: default
 ---
 <div id="post">
   <h2>{{ page.title }}</h2>
+  <p>{{ page.date | date_to_string }}</p>
   {{ content }}
 </div>
 
@@ -15,3 +16,7 @@ layout: default
   </ul>
 </div>
 
+<div id="comments">
+  <h2>Your comments</h2>
+  <fb:comments href="http://blog.mathieufosse.com{{ page.url }}" num_posts="10" width="520"></fb:comments>
+</div>

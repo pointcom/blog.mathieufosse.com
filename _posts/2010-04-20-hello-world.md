@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 
 
-<pre class="prettyPrint">
+<pre class="prettyprint">
 function(a) {
  alert('coucou : '+a);
 }
