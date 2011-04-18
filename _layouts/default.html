@@ -1,9 +1,15 @@
+---
+blog_title: Mathieu Fosse
+---
 <!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel= 'SHORTCUT ICON', href="/images/favicon.png">
+    <link href="http://feeds.feedburner.com/mathieufosse" rel="alternate" title="Mathieu Fosse" type="application/atom+xml" />
+    
   
-    <title>{{ page.title }}</title>
+    <title>{{ page.blog_title }} - {{ page.title }}</title>
     <link rel="stylesheet" href="/css/master.css" type="text/css" media="screen" charset="utf-8">
     <link href="/css/prettify.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="/js/prettify.js"></script>
@@ -19,8 +25,22 @@
       </div>
       <div id="sidebar">
         <h3>About me</h3>
-        <p>I'm Tigerlily's CTO. I love the Web and more specifically Web
-        development</p>
+        <div id="aboutme">
+          <p>I'm the CTO of <a href="http://www.tigerlilyapps.com">Tigerlily</a>.</p> 
+          <p>I love the Web and more specifically Web
+          development</p>
+        </div>
+
+        <h3>Follow me</h3>
+        <ul id="links">
+          <li class="facebook"><a href="http://www.facebook.com/mathieu.fosse">Facebook</a></li>
+          <li class="twitter"><a href="http://www.twitter.com/pointcom">Twitter</a></li>
+          <li class="github"><a href="http://www.github.com/pointcom">Github</a></li>
+          <li class="flickr"><a href="http://www.flickr.com/pointcom">flickr</a></li>
+        </ul>
+
+        <a href="#">Contact me</a>
+
       </div>
     </div>
     <div id="fb-root"></div>

@@ -1,0 +1,5 @@
+h1. This is my Jekyll blog
+
+My blog uses "Jekyll":http://github.com/mojombo/jekyll. Here is the data
+of my blog. This blog is inspired by the blog of "Tom
+Preston-Werner":https://github.com/mojombo/mojombo.github.com.
