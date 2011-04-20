@@ -4,12 +4,14 @@ layout: default
 <div id="post">
   <h2>{{ page.title }}</h2>
   <p class="date">{{ page.date | date_to_string }}</p>
-  <div id="share">
-    <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="pointcom">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="" layout="button_count" show_faces="true" width="450" font="arial"></fb:like>
+  <div class="share">
+    <fb:like layout="standard" show_faces="true" font="arial"></fb:like>
   </div>
   <div id="content">
     {{ content }}
+  </div>
+  <div class="share">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="pointcom">Tweet</a>
   </div>
 </div>
 <div id="comments">

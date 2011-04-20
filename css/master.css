@@ -1,11 +1,11 @@
 body  { font-family: "Helvetica Neue", Helvetica, Arial;color: #555; }
 a { text-decoration: none;color:#FE7D2A; }
-#content { width: 520px;}
+#container { width: 520px;}
 #sidebar { width: 200px;padding-left: 20px;text-align:right;}
 #sidebar h3 { font-weight:200;margin-bottom:0; }
 #sidebar p { font-weight:100;font-style: italic; }
 #sidebar ul { list-style:none; }
-#content, #sidebar { float:left; }
+#container, #sidebar { float:left; }
 #blog { width: 740px;margin:0 auto; }
 #post { font-weight: 200; }
 #posts { margin: 0;padding:0;list-style:none; }
@@ -20,3 +20,4 @@ li.facebook a { background-color:#3c5c95;color:#FFF; }
 li.twitter  a { background-color:#66cefb;color:#FFF; }
 li.github   a { background-color:#CCC;color:#000; }
 li.flickr   a { background-color:#ff0084;color:#FFF; }
+.share { padding: 20px 0;}
